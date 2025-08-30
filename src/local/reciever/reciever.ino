@@ -1,11 +1,13 @@
 #include <SPI.h>
 #include <LoRa.h>
+
 #define LORA_SCK 5
 #define LORA_MISO 18
 #define LORA_MOSI 23
 #define LORA_SS 17
 #define LORA_RST 14
 #define LORA_DIO0 26
+
 void setup() {
   Serial.begin(115200);
   while (!Serial);  

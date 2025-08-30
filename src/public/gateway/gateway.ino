@@ -3,8 +3,8 @@
 #include <SPI.h>
 #include <LoRa.h>
 
-const char* ssid = "Lalic";
-const char* password = "12122412";
+const char* ssid = "ssid-mreze";
+const char* password = "sifra-mreze";
 
 const char* mqtt_server = "broker.hivemq.com";
 const int mqtt_port = 1883;
